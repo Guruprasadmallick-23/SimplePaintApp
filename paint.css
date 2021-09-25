@@ -1,0 +1,51 @@
+*{	
+    border:0;
+    padding:0;
+    margin:0;
+}
+
+div{
+	position:fixed;
+	width:100%;
+}
+
+h1{
+	color:blue;
+    font-family:verdana;
+    font-size:300%;	
+    text-align: center;	
+}
+
+canvas{
+	
+	position: absolute;	
+    width: 800px;
+    height: 400px;
+    top: 100px;
+    left:300px;
+    bottom: -100px;
+    border: 10px solid black;
+	display:block;
+	background-color:white;
+}
+
+	
+	
+
+.btn{
+    position:absolute;
+    bottom: 5px;
+    right: 195px;
+	height:20px;
+	width:100px;
+    border: 2px solid black;
+    background-color: red;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    color:red;
+    background-color: green;
+}
